@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = "Task-manager for people"
+authors = ["Кирилл <sayganov.kirya@mail.ru>"]
+readme = "README.md"
+packages = [{include = "task_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
